@@ -79,7 +79,7 @@
     }
 }
 
-@media only screen and (min-width:355px) and (max-width:790px) {
+@media only screen and (min-width:250px) and (max-width:790px) {
     .navbar {
         flex-direction: column;
         height: 200px;
@@ -178,8 +178,8 @@
     }
 
     .logo {
-        width: 50px;
         position: absolute;
+        width: 50px;
         top: 10px;
         left: 5%;
     }
@@ -203,70 +203,13 @@
 }
 
 @media only screen and (min-width:250px) and (max-width:354px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .nav-ul {
-        display: flex;
-        flex-direction: column;
-        margin: 6px 15px;
-    }
-
-    .nav-lists a {
-        font-size: 1.1rem;
-    }
-
-    .nav-ul {
-        flex-direction: column;
-    }
-
-    .right-nav {
-        flex-direction: column;
-    }
-
-    .search-input {
-        margin-top: 20px;
-    }
-
-    .nav-lists {
-        margin: 10px 2px;
-    }
-
-    .cont-sec-right {
-        display: none;
-    }
-
-    .btn {
-        margin-top: 20px;
-    }
-
-    .logo {
-        position: absolute;
-        top: 10px;
-        left: 5%;
-    }
-
-    .home-content {
-        width: 95%;
-    }
 
     .details-section {
         height: 1600px;
     }
 
-    .details-boxes {
-        width: 100%;
-        padding-top: 70px;
-    }
-
     .d-box {
-        margin-top: 70px;
         width: 260px;
-    }
-
-    .cont-sec-left {
-        width: 100%;
     }
 
     .form-input {
@@ -274,7 +217,6 @@
     }
 
     .form-textarea {
-        margin: 14px -15px;
         max-width: 230px;
     }
 
@@ -299,31 +241,4 @@
         margin-left: 25px;
     }
 
-    #contact-section {
-        height: 950px;
-    }
-
-    .footer-text {
-        font-size: 1rem;
-        font-weight: lighter;
-        margin: 0px 25px;
-    }
-
-
-    .form-btn {
-        width: 170px;
-    }
-
-    .burger {
-        display: block;
-    }
-
-    .h-nav-resp {
-        height: 72px !important;
-        border-bottom: 1px solid #fff;
-    }
-
-    .v-class-resp {
-        opacity: 0;
-    }
 }
