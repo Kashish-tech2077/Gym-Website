@@ -28,11 +28,14 @@ body {
 
 #header {
     background-color: var(--header-color);
+    position: sticky;
+    top: 0px;
+    left: 0px;
     /* height: 72px; */
 }
 
 /* Header before pseudo selector for Background */
-#header::before {
+#header::after {
     content: "";
     position: absolute;
     top: 0px;
