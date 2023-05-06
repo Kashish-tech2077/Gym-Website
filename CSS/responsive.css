@@ -1,0 +1,329 @@
+@media only screen and (min-width:1024px) and (max-width:1190px) {
+    .details-section {
+        height: 1020px;
+    }
+
+    .details-boxes {
+        padding-top: 80px;
+    }
+
+    .nav-lists a {
+        font-size: 1.1rem;
+    }
+
+    .d-box {
+        margin-top: 40px;
+    }
+
+    #girl-workout-img {
+        width: 425px;
+    }
+
+    .form-input {
+        width: 450px;
+    }
+    #header{
+        height: 72px;
+    }
+}
+
+@media only screen and (min-width:791px) and (max-width:1023px) {
+    #header {
+        height: 100px;
+    }
+
+    #header::before {
+        /* height: 100vh; */
+    }
+
+    .nav-lists a {
+        font-size: 1.1rem;
+    }
+
+    #home-section {
+        height: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .cont-sec-right {
+        display: none;
+    }
+
+    .details-section {
+        height: 1100px;
+    }
+
+    .cont-sec-left {
+        width: 100%;
+    }
+
+    .details-boxes {
+        padding-top: 80px;
+    }
+
+    .d-box {
+        margin-top: 40px;
+    }
+
+    .details-boxes {
+        width: 95%;
+    }
+
+    .btn {
+        height: 15px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:355px) and (max-width:790px) {
+    .navbar {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-direction: column;
+        margin: 6px 15px;
+    }
+
+    .nav-lists a {
+        font-size: 1.1rem;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        flex-direction: column;
+    }
+
+    .search-input {
+        margin-top: 20px;
+    }
+
+    .nav-lists {
+        margin: 10px 2px;
+    }
+
+    .cont-sec-right {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .home-content {
+        width: 95%;
+    }
+
+    .details-section {
+        height: 1550px;
+    }
+
+    .details-boxes {
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .d-box {
+        margin-top: 70px;
+        width: 340px;
+    }
+
+    .cont-sec-left {
+        width: 100%;
+    }
+
+    .form-input {
+        width: 260px;
+    }
+
+    .form-textarea {
+        margin: 14px -15px;
+        max-width: 300px;
+    }
+
+    #h-heading-1 {
+        font-size: 4.8rem;
+    }
+
+    #h-heading-2 {
+        font-size: 3rem;
+    }
+
+    #h-heading-3 {
+        font-size: 1.8rem;
+    }
+
+    #h-heading-4 {
+        font-size: 6.8rem;
+        margin-left: 70px;
+    }
+
+    #contact-section {
+        height: 950px;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin: 0px 25px;
+    }
+
+    .logo {
+        width: 50px;
+        position: absolute;
+        top: 10px;
+        left: 5%;
+    }
+
+    .form-btn {
+        width: 170px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 72px !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width:250px) and (max-width:354px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-direction: column;
+        margin: 6px 15px;
+    }
+
+    .nav-lists a {
+        font-size: 1.1rem;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        flex-direction: column;
+    }
+
+    .search-input {
+        margin-top: 20px;
+    }
+
+    .nav-lists {
+        margin: 10px 2px;
+    }
+
+    .cont-sec-right {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 5%;
+    }
+
+    .home-content {
+        width: 95%;
+    }
+
+    .details-section {
+        height: 1600px;
+    }
+
+    .details-boxes {
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .d-box {
+        margin-top: 70px;
+        width: 260px;
+    }
+
+    .cont-sec-left {
+        width: 100%;
+    }
+
+    .form-input {
+        width: 200px;
+    }
+
+    .form-textarea {
+        margin: 14px -15px;
+        max-width: 230px;
+    }
+
+    .home-heading {
+        margin: 7px 4px 5px 20px;
+    }
+
+    #h-heading-1 {
+        font-size: 4.5rem;
+    }
+
+    #h-heading-2 {
+        font-size: 2.8rem;
+    }
+
+    #h-heading-3 {
+        font-size: 1.8rem;
+    }
+
+    #h-heading-4 {
+        font-size: 6.5rem;
+        margin-left: 25px;
+    }
+
+    #contact-section {
+        height: 950px;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin: 0px 25px;
+    }
+
+
+    .form-btn {
+        width: 170px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 72px !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+}

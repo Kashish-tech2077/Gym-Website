@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Fit | Fitness.com</title>
+    <link rel="shortcut icon" href="./Images/gym-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utilities.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <!--Imported Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/3dd7962506.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="navbar h-nav-resp">
+            <div class="left-nav d-flex ">
+                <div class="logo-img">
+                    <img class="logo" src="./Images/gym-favicon.png" alt="Logo-image">
+                </div>
+                <ul class="nav-ul v-class-resp">
+                    <li class="nav-lists"><a href="#">Home</a></li>
+                    <li class="nav-lists"><a href="#">Pricing</a></li>
+                    <li class="nav-lists"><a href="#">FitHub</a></li>
+                    <li class="nav-lists"><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="right-nav d-flex v-class-resp">
+                <input type="text" name="search" id="search-input">
+                <label for="search-input">
+                    <button type="button" id="nav-search-btn" class="btn d-flex main-font">Search</button>
+                </label>
+            </div>
+            <div class="burger">
+                <div class="b-line"></div>
+                <div class="b-line"></div>
+                <div class="b-line"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home-section">
+        <div class="home-content">
+            <div class="home-heading" id="h-heading-1">
+                Fitness
+            </div>
+            <div class="home-heading" id="h-heading-2">
+                Is not our Goal
+            </div>
+            <div class="home-heading" id="h-heading-3">
+                It's our
+            </div>
+            <div class="home-heading" id="h-heading-4">
+                Duty
+            </div>
+        </div>
+    </section>
+    <!-- Details Section -->
+    <section class="details-section">
+        <div class="details-boxes">
+            <div class="d-box" id="d-box-1">
+                <div class="box-img">
+                    <i class="fa-solid fa-dumbbell" style="color: #0202af;"></i>
+                </div>
+                <div class="d-main-text box-text-color">
+                    Best Equipments
+                </div>
+                <div class="box-content box-text-color">
+                    We have world class and Modern Gym machines and Equipments for Training for every Enthusiast
+                </div>
+            </div>
+            <div class="d-box" id="d-box-1">
+                <div class="box-img">
+                    <i class="fa-solid fa-clock" style="color: #0202af;"></i>
+                </div>
+                <div class="d-main-text box-text-color">
+                    Choose your Time
+                </div>
+                <div class="box-content box-text-color">
+                    Classes start whenever you want. Our coach are always ready to start classes with full Motivation
+                    and Enthusiasm.
+                </div>
+            </div>
+            <div class="d-box" id="d-box-1">
+                <div class="box-img">
+                    <i class="fa-solid fa-sack-dollar" style="color: #0202af;"></i>
+                </div>
+                <div class="d-main-text box-text-color">
+                    Affordable Cost
+                </div>
+                <div class="box-content box-text-color">
+                    Enjoy our Premium Services at Affordable cost with best facilites like Air-Conditioned Halls and
+                    Free Protein Shakes Bottle.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact-section">
+        <div id="contact-content">
+            <div class="cont-sec-left">
+                <div class="cont-heading heading">
+                    Touch With US!
+                </div>
+                <div class="contact-form">
+                    <form action="backend.js" class="form-box">
+                        <div class="cont-info" id="cont-name">
+                            <label class="form-label" for="name">Name:</label>
+                            <div>
+                                <input class="form-input main-font" type="text" name="name" id="name"
+                                    placeholder="Enter your name" required>
+                            </div>
+                        </div>
+                        <div class="cont-info" id="cont-email">
+                            <label class="form-label" for="email">Email:</label>
+                            <div>
+                                <input class="form-input main-font" type="email" name="email" id="email"
+                                    placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                        <div class="cont-info" id="cont-phone">
+                            <label class="form-label" for="number">Phone No:</label>
+                            <div>
+                                <input class="form-input main-font" type="number" name="number" id="number" min="10"
+                                    max="10" placeholder="Enter your Phone No">
+                            </div>
+                        </div>
+                        <div class="form-text-area cont-info">
+                            <label class="form-label" for="textarea">Ellaborate Yourself:</label>
+                            <textarea class="form-textarea  main-font" name="text-area" id="textarea" cols="30"
+                                rows="5"></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" class="form-btn main-font" value="Submit"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="cont-sec-right">
+                <img id="girl-workout-img" src="./Images/girl-workout.png" alt="Girl-Workout-Image">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer-section">
+        <div class="footer-content">
+            <div class="copyright footer-text main-font">
+                &copy; Copyright 2023 Fitness.com
+            </div>
+            <div class="copy-power footer-text main-font">
+                Powered by Fitness.com
+            </div>
+        </div>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
