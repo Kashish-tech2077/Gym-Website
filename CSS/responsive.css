@@ -29,12 +29,12 @@
 
 @media only screen and (min-width:791px) and (max-width:1023px) {
     #header {
-        height: 100px;
+        height: 72px;
     }
 
-    #header::before {
-        /* height: 100vh; */
-    }
+    /* #header::before {
+        height: 100vh;
+    } */
 
     .nav-lists a {
         font-size: 1.1rem;
